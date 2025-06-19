@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlackBoxCheckApi</name>
+    </assembly>
+    <members>
+        <member name="T:BlackBoxCheckApi.ApiModels.RequestModels.BoxedItemUpdateRequest">
+            <summary>
+            DTO для обновления элементов коллекции листа
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.BoxedItemUpdateRequest.IdGuid">
+            <summary>
+            Guid обновляемого элемента
+            </summary>
+        </member>
+        <member name="T:BlackBoxCheckApi.ApiModels.RequestModels.ItemsListCreateRequest">
+            <summary>
+            Модель для запроса на создание листа
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.ItemsListCreateRequest.IdGuid">
+            <summary>
+            GUID объекта 
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.ItemsListUpdateRequest.IdGuid">
+            <summary>
+            GUID объекта 
+            </summary>
+        </member>
+        <member name="T:BlackBoxCheckApi.ApiModels.RequestModels.LoginRequest">
+            <summary>
+            Данные для авторизации
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.LoginRequest.Username">
+            <summary>
+            Имя пользователя "Login"
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.LoginRequest.Password">
+            <summary>
+            Пароль пользователя
+            </summary>
+        </member>
+        <member name="T:BlackBoxCheckApi.ApiModels.RequestModels.RegisterRequest">
+            <summary>
+            Данные для регистрации пользователя
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.RegisterRequest.Username">
+            <summary>
+            Имя пользователя "Login"
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.RegisterRequest.Password">
+            <summary>
+            Пароль
+            </summary>
+        </member>
+        <member name="T:BlackBoxCheckApi.ApiModels.RequestModels.SearchRequest">
+            <summary>
+            Поисковый запрос
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.RequestModels.SearchRequest.Text">
+            <summary>
+            Искомый текст
+            </summary>
+        </member>
+        <member name="T:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse">
+            <summary>
+            DTO с подробными данными о элементе листа
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse.IdGuid">
+            <summary>
+            Guid элемента
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse.Name">
+            <summary>
+            Название предмета
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse.Value">
+            <summary>
+            Количество 
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse.Description">
+            <summary>
+            Описание предмета
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse.CreatedAt">
+            <summary>
+            Дата добавления в базу
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.ResponseModels.BoxedItemDetailResponse.UpdateAt">
+            <summary>
+            Дата изменения
+            </summary>
+        </member>
+        <member name="T:BlackBoxCheckApi.ApiModels.SearchResultResponse">
+            <summary>
+            DTO для результатов поиска
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.SearchResultResponse.listName">
+            <summary>
+            Имя листа во вложенной коллекции которого найден искомый текст
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.SearchResultResponse.CreatedAt">
+            <summary>
+            Дата создания листа
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.SearchResultResponse.itemName">
+            <summary>
+            Непосредственно элемент в котором найдено совпадение с искомой строкой
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.SearchResultResponse.itemDescription">
+            <summary>
+            Описание элемента
+            </summary>
+        </member>
+        <member name="P:BlackBoxCheckApi.ApiModels.SearchResultResponse.listId">
+            <summary>
+            Guid листа
+            </summary>
+        </member>
+        <member name="M:BlackBoxCheckApi.Controllers.AuthController.Register(BlackBoxCheckApi.ApiModels.RequestModels.RegisterRequest)">
+            <summary>
+            Регистрация нового пользователя в системе
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlackBoxCheckApi.Controllers.AuthController.Login(BlackBoxCheckApi.ApiModels.RequestModels.LoginRequest)">
+            <summary>
+            Логин пользователя
+            </summary>
+            <param name="model"></param>
+            <returns>Возвращает токен JWT</returns>
+        </member>
+        <member name="M:BlackBoxCheckApi.Controllers.ItemsListController.GetListByGuid(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="listGuid"></param>
+            <returns>Список предметов</returns>
+            <response code="200">Возвращает запрошенный список</response>
+            <response code="404">Если список не найден</response>
+        </member>
+        <member name="M:BlackBoxCheckApi.Controllers.ItemsListController.AddList(BlackBoxCheckApi.ApiModels.RequestModels.ItemsListCreateRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns>Возвращает ссылку на список</returns>
+            <response code="401">Для добавления списка требуется авторизация</response>
+            <response code="201">Лист добавлен</response>
+        </member>
+        <member name="M:BlackBoxCheckApi.Controllers.ItemsListController.Search(BlackBoxCheckApi.ApiModels.RequestModels.SearchRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns>Возвращает список совпадений в предметах. Каждое совпадение вложено в свой лист</returns>
+            <response code="401">Для добавления списка требуется авторизация</response>
+        </member>
+        <member name="T:BlackBoxCheckApi.Services.IRepositoryService`1">
+            <summary>
+            На случай обобщенного сервиса
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:BlackBoxCheckApi.Services.ItemsListService.GetListById(System.Guid,System.Guid)">
+            <summary>
+            Возвращает лист с ID полученным через параметры Если лист найден и он публичный то он вернется из метода.
+            Если лист приватный то метод сверяет переданный userId с id владельца листа и возвращает лист в случае совпадения.
+            Если лист приватный а userId не передан или не совпал с владельцем вернется null.
+            </summary>
+            <param name="listGuid">Guid искомого листа</param>
+            <param name="userGuid">Guid пользователя запросившего лист, по умолчанию используется нулевой Guid</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,375 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "BlackBoxCheck API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/v1/ItemsList/Getbyid/{listGuid}": {
+      "get": {
+        "tags": [
+          "ItemsList"
+        ],
+        "summary": "",
+        "parameters": [
+          {
+            "name": "listGuid",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "bbccd285-599d-413b-89ac-dbb1f8863807"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Возвращает запрошенный список"
+          },
+          "404": {
+            "description": "Если список не найден"
+          }
+        }
+      }
+    },
+    "/api/v1/ItemsList/Add": {
+      "post": {
+        "tags": [
+          "ItemsList"
+        ],
+        "summary": "",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemsListCreateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemsListCreateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemsListCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Для добавления списка требуется авторизация"
+          },
+          "201": {
+            "description": "Лист добавлен"
+          }
+        }
+      }
+    },
+    "/api/v1/ItemsList/Search": {
+      "post": {
+        "tags": [
+          "ItemsList"
+        ],
+        "summary": "",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SearchResultResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SearchResultResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SearchResultResponse"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Для добавления списка требуется авторизация"
+          }
+        }
+      }
+    },
+    "/api/v1/ItemsList/Delete/{listGuid}": {
+      "delete": {
+        "tags": [
+          "ItemsList"
+        ],
+        "parameters": [
+          {
+            "name": "listGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "d156bfe2-a5c5-44e9-95f5-73b4ee1b850a"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/ItemsList/Update": {
+      "post": {
+        "tags": [
+          "ItemsList"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemsListUpdateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemsListUpdateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemsListUpdateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BoxedItemCreateRequest": {
+        "type": "object",
+        "properties": {
+          "idGuid": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true,
+            "example": "e7bc26ad-bf38-49cd-9a70-96b95cc913c0"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BoxedItemUpdateRequest": {
+        "required": [
+          "idGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "idGuid": {
+            "type": "string",
+            "description": "Guid обновляемого элемента",
+            "format": "uuid",
+            "example": "d49cbe10-512c-4850-8744-367b77f5aa86"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "DTO для обновления элементов коллекции листа"
+      },
+      "ItemsListCreateRequest": {
+        "type": "object",
+        "properties": {
+          "idGuid": {
+            "type": "string",
+            "description": "GUID объекта",
+            "format": "uuid",
+            "nullable": true,
+            "example": "8ea1c1ea-7ba8-4a6d-8514-256b7e66b07e"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "isShared": {
+            "type": "boolean"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BoxedItemCreateRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Модель для запроса на создание листа"
+      },
+      "ItemsListUpdateRequest": {
+        "required": [
+          "idGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "idGuid": {
+            "type": "string",
+            "description": "GUID объекта",
+            "format": "uuid",
+            "example": "fa795eaf-c771-42bc-a8de-39af38557618"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "isShared": {
+            "type": "boolean"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BoxedItemUpdateRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchRequest": {
+        "required": [
+          "text"
+        ],
+        "type": "object",
+        "properties": {
+          "text": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Искомый текст"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Поисковый запрос"
+      },
+      "SearchResultResponse": {
+        "type": "object",
+        "properties": {
+          "listName": {
+            "type": "string",
+            "description": "Имя листа во вложенной коллекции которого найден искомый текст",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "description": "Дата создания листа",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "description": "Непосредственно элемент в котором найдено совпадение с искомой строкой",
+            "nullable": true
+          },
+          "itemDescription": {
+            "type": "string",
+            "description": "Описание элемента",
+            "nullable": true
+          },
+          "listId": {
+            "type": "string",
+            "description": "Guid листа",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "DTO для результатов поиска"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header. Example: \"Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\services\\boxeditemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:services\\boxeditemsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\models\\guidschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:models\\guidschemafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\controllers\\itemslistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:controllers\\itemslistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\models\\blackboxcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:models\\blackboxcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\responsemodels\\searchresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\responsemodels\\searchresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\models\\itemslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:models\\itemslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\requestmodels\\itemslistcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\requestmodels\\itemslistcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\services\\itemslistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:services\\itemslistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\models\\repository\\literepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:models\\repository\\literepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\responsemodels\\itemlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\responsemodels\\itemlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\requestmodels\\boxeditemupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\requestmodels\\boxeditemupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\responsemodels\\boxeditemdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\responsemodels\\boxeditemdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\requestmodels\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\requestmodels\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\requestmodels\\itemslistupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\requestmodels\\itemslistupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|c:\\users\\ergo-pc\\source\\repos\\blackboxcheckapi\\apimodels\\requestmodels\\boxeditemcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11B89C0E-4DEE-42F4-B6BC-A33F047D64CA}|BlackBoxCheckApi.csproj|solutionrelative:apimodels\\requestmodels\\boxeditemcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 120,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlackBoxContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\BlackBoxContext.cs",
+              "RelativeDocumentMoniker": "Models\\BlackBoxContext.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\BlackBoxContext.cs",
+              "RelativeToolTip": "Models\\BlackBoxContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:13:12.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuidSchemaFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\GuidSchemaFilter.cs",
+              "RelativeDocumentMoniker": "Models\\GuidSchemaFilter.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\GuidSchemaFilter.cs",
+              "RelativeToolTip": "Models\\GuidSchemaFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:36:53.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LiteRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\Repository\\LiteRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "Models\\Repository\\LiteRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\Repository\\LiteRepositoryAsync.cs",
+              "RelativeToolTip": "Models\\Repository\\LiteRepositoryAsync.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:54:02.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BoxedItemDetailResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\ResponseModels\\BoxedItemDetailResponse.cs",
+              "RelativeDocumentMoniker": "ApiModels\\ResponseModels\\BoxedItemDetailResponse.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\ResponseModels\\BoxedItemDetailResponse.cs",
+              "RelativeToolTip": "ApiModels\\ResponseModels\\BoxedItemDetailResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:24:25.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemsList.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\ItemsList.cs",
+              "RelativeDocumentMoniker": "Models\\ItemsList.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Models\\ItemsList.cs",
+              "RelativeToolTip": "Models\\ItemsList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:09:24.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\MappingProfile.cs",
+              "RelativeToolTip": "Services\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:47:02.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BoxedItemUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\BoxedItemUpdateRequest.cs",
+              "RelativeDocumentMoniker": "ApiModels\\RequestModels\\BoxedItemUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\BoxedItemUpdateRequest.cs",
+              "RelativeToolTip": "ApiModels\\RequestModels\\BoxedItemUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:44:05.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ItemsListUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\ItemsListUpdateRequest.cs",
+              "RelativeDocumentMoniker": "ApiModels\\RequestModels\\ItemsListUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\ItemsListUpdateRequest.cs",
+              "RelativeToolTip": "ApiModels\\RequestModels\\ItemsListUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:42:11.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemsListCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\ItemsListCreateRequest.cs",
+              "RelativeDocumentMoniker": "ApiModels\\RequestModels\\ItemsListCreateRequest.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\ItemsListCreateRequest.cs",
+              "RelativeToolTip": "ApiModels\\RequestModels\\ItemsListCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:01:00.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BoxedItemCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\BoxedItemCreateRequest.cs",
+              "RelativeDocumentMoniker": "ApiModels\\RequestModels\\BoxedItemCreateRequest.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\BoxedItemCreateRequest.cs",
+              "RelativeToolTip": "ApiModels\\RequestModels\\BoxedItemCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:19:26.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemsListService.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\ItemsListService.cs",
+              "RelativeDocumentMoniker": "Services\\ItemsListService.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\ItemsListService.cs",
+              "RelativeToolTip": "Services\\ItemsListService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:57:09.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SearchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\SearchRequest.cs",
+              "RelativeDocumentMoniker": "ApiModels\\RequestModels\\SearchRequest.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\RequestModels\\SearchRequest.cs",
+              "RelativeToolTip": "ApiModels\\RequestModels\\SearchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:30:13.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchResultResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\ResponseModels\\SearchResultResponse.cs",
+              "RelativeDocumentMoniker": "ApiModels\\ResponseModels\\SearchResultResponse.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\ResponseModels\\SearchResultResponse.cs",
+              "RelativeToolTip": "ApiModels\\ResponseModels\\SearchResultResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T22:21:06.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemListResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\ResponseModels\\ItemListResponse.cs",
+              "RelativeDocumentMoniker": "ApiModels\\ResponseModels\\ItemListResponse.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\ApiModels\\ResponseModels\\ItemListResponse.cs",
+              "RelativeToolTip": "ApiModels\\ResponseModels\\ItemListResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:01:57.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:57:21.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAlwDoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:11:39.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T16:43:27.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoxedItemsService.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\BoxedItemsService.cs",
+              "RelativeDocumentMoniker": "Services\\BoxedItemsService.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\BoxedItemsService.cs",
+              "RelativeToolTip": "Services\\BoxedItemsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:42:17.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:42:10.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemsListController.cs",
+              "DocumentMoniker": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Controllers\\ItemsListController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsListController.cs",
+              "ToolTip": "C:\\Users\\Ergo-PC\\source\\repos\\BlackBoxCheckApi\\Controllers\\ItemsListController.cs",
+              "RelativeToolTip": "Controllers\\ItemsListController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:30:44.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

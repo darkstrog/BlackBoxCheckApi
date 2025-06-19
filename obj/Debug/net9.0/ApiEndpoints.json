@@ -1,0 +1,124 @@
+[
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BlackBoxCheckApi.ApiModels.RequestModels.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BlackBoxCheckApi.ApiModels.RequestModels.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.ItemsListController",
+    "Method": "AddList",
+    "RelativePath": "api/v1/ItemsList/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BlackBoxCheckApi.ApiModels.RequestModels.ItemsListCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.ItemsListController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/ItemsList/Delete/{listGuid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listGuid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.ItemsListController",
+    "Method": "GetListByGuid",
+    "RelativePath": "api/v1/ItemsList/Getbyid/{listGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listGuid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.ItemsListController",
+    "Method": "Search",
+    "RelativePath": "api/v1/ItemsList/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BlackBoxCheckApi.ApiModels.RequestModels.SearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BlackBoxCheckApi.ApiModels.SearchResultResponse, BlackBoxCheckApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlackBoxCheckApi.Controllers.ItemsListController",
+    "Method": "Update",
+    "RelativePath": "api/v1/ItemsList/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BlackBoxCheckApi.ApiModels.RequestModels.ItemsListUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

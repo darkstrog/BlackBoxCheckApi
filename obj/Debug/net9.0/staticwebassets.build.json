@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Lwk8wGzV+Ge27LIcOoA4zv4ThVIpSbonA6PSUGy1c2w=",
+  "Source": "BlackBoxCheckApi",
+  "BasePath": "_content/BlackBoxCheckApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
